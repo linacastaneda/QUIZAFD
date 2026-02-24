@@ -7,7 +7,7 @@ Este proyecto implementa un Autómata Finito Determinístico (AFD) en Python y e
 El programa realiza análisis léxico sobre un archivo de texto (.txt) y reconoce los siguientes tokens:
 
 - ++  → INCR  
--  + → SUMA  
+- . + → SUMA  
 - [A-Z][a-z0-9]* → ID  
 
 Si una línea contiene un carácter o patrón inválido, el programa imprime:
